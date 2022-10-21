@@ -2,7 +2,7 @@ const linkData = [
     {
         id: 1,
         title: 'Twitter Link',
-        link: ''
+        link: 'https://twitter.com/OsaraAnointed?t=PCL5oG7eHTqHZgjnQtvzKw&s=09'
     },
     {
         id: 2,
