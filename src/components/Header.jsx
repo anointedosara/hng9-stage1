@@ -11,7 +11,7 @@ export default function Header() {
     <div>
       <img
         style={
-          shadow === true ? { outline: "4px solid #EAECF0" } : { outline: "" }
+          shadow === true ? { boxShadow: "0px 0px 0px 4px #F2F4F7" } : { boxShadow: "" }
         }
         onClick={handleClick}
         className="share"
