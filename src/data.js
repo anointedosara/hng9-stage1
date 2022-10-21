@@ -1,31 +1,31 @@
 const linkData = [
     {
-        id: 1,
+        id: '',
         title: 'Twitter Link',
         link: 'https://twitter.com/OsaraAnointed?t=PCL5oG7eHTqHZgjnQtvzKw&s=09'
     },
     {
-        id: 2,
+        id: 'btn__zuri',
         title: 'Zuri Team',
         link: 'https://training.zuri.team/'
     },
     {
-        id: 3,
+        id: 'books',
         title: 'Zuri Books',
         link: 'http://books.zuri.team'
     },
     {
-        id: 4,
+        id: 'book__python',
         title: 'Python Books',
         link: 'https://books.zuri.team/python-for-beginners?ref_id=Anointed1'
     },
     {
-        id: 5,
+        id: 'pitch',
         title: 'Background Check for Coders',
         link: 'https://background.zuri.team'
     },
     {
-        id: 6,
+        id: 'book__design',
         title: 'Design Books',
         link: 'https://books.zuri.team/design-rules'
     },
