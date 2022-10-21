@@ -30,3 +30,5 @@ const linkData = [
         link: 'https://books.zuri.team/design-rules'
     },
 ]
+
+export default linkData
