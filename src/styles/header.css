@@ -11,6 +11,10 @@
     display: none;
 }
 
+.mobile-share-hover {
+    display: none;
+}
+
 .desc {
     position: absolute;
     right: 259px;
@@ -101,6 +105,12 @@
         display: none;
     }
     .mobile-share {
+        display: block;
+    }
+    .mobile-share:hover {
+        display: none;
+    }
+    .mobile-share:hover ~ .mobile-share-hover {
         display: block;
     }
     .share:hover ~ .desc {
