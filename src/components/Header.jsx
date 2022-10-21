@@ -18,6 +18,11 @@ export default function Header() {
         src="../images/share.svg"
         alt=""
       />
+      <img
+        className="share mobile-share"
+        src="../images/mobile-share.svg"
+        alt=""
+      />
       <div
         className="desc"
         style={shadow === true ? { opacity: 0 } : { opacity: "" }}

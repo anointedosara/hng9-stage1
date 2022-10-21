@@ -19,3 +19,9 @@ body {
   padding: 50px 30px 30px 30px;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 50px 20px 30px 20px;
+  }
+}
