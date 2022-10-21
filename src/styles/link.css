@@ -9,7 +9,7 @@
     background: #EAECF0;
     border: 1px solid #EAECF0;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 500;
     height: 76px;
     font-size: 18px;
     line-height: 28px;
@@ -37,4 +37,16 @@
     height: 72px;
     background: #FFFFFF;
     margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        padding: 0;
+        margin-top: 0;
+    }
+    .link {
+        font-size: 14px;
+        line-height: 20px;
+        height: 68px;
+    }
 }

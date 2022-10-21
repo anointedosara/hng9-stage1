@@ -87,3 +87,9 @@
 #slack {
     display: none
 }
+
+@media screen and (max-width: 768px) {
+    .profile p {
+        font-size: 18px;
+    }
+}

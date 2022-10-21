@@ -15,3 +15,9 @@
     padding: 15px 0 0 0;
     border-top: 1px solid #EAECF0;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
