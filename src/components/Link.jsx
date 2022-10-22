@@ -12,7 +12,7 @@ function Link() {
 
         <div className='socials'>
             <img src="../images/slack.svg" alt="" />
-            <img src="../images/github.svg" alt="" />
+            <a href="https://github.com/anointedosara"><img src="../images/github.svg" alt="" /></a>
         </div>
     </div>
   )
