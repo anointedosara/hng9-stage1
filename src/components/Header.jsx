@@ -45,7 +45,7 @@ export default function Header() {
             <img className="camera" src="../images/camera.svg" alt="" />
           </div>
         </div>
-        <p id="twitter">Anointed Osara</p>
+        <p id="twitter">OsaraAnointed</p>
         <p id="slack">Anointed1</p>
       </div>
     </div>
