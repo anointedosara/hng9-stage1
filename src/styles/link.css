@@ -16,6 +16,7 @@
     color: #101828;
     margin: 10px 0;
     transition: 0.3s all ease;
+    cursor: pointer;
 }
 
 .link a {
