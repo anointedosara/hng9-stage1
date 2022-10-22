@@ -1,13 +1,37 @@
-.share {
+.header-desktop-share {
     position: absolute;
     right: 208px;
     top: 30px;
     border-radius: 20px;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 0.6;
+    width: 40px;
+    height: 40px
 }
 
-.mobile-share {
+.header-desktop-share:hover {
+    background: #F9FAFB;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.header-desktop-share:focus {
+    background: #FFFFFF;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+    opacity: 0.6;
+    box-shadow: 0px 0px 0px 4px #F2F4F7 !important;
+}
+
+.header-mobile-share {
     display: none;
 }
 
@@ -23,7 +47,7 @@
     transition: 0.3s all ease;
 }
 
-.share:hover ~ .desc {
+.header-desktop-share:hover ~ .desc {
     opacity: 1;
 }
 
@@ -100,11 +124,11 @@
     .profile p {
         font-size: 18px;
     }
-    .share {
+    .header-desktop-share {
         right: 20px;
         display: none;
     }
-    .mobile-share {
+    .header-mobile-share {
         display: block;
     }
     .mobile-share:hover {
@@ -113,7 +137,7 @@
     .mobile-share:hover ~ .mobile-share-hover {
         display: block;
     }
-    .share:hover ~ .desc {
+    .header-desktop-share:hover ~ .desc {
         display: none;
     }
 }
