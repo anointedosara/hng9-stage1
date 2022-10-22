@@ -13,7 +13,8 @@
     border-radius: 20px;
     opacity: 0.6;
     width: 40px;
-    height: 40px
+    height: 40px;
+    transition: 0.3s all ease;
 }
 
 .header-desktop-share:hover {
