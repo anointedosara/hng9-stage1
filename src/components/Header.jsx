@@ -33,7 +33,7 @@ export default function Header() {
           </div>
         </div>
         <p id="twitter">OsaraAnointed</p>
-        <p id="slack">Anointed1</p>
+        <p id="slack">AnointedOsara</p>
       </div>
     </div>
   );
