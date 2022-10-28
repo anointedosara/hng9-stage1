@@ -6,7 +6,7 @@ function Link() {
     <div>
       <div className='links'>
         {
-          linkData?.map((item, i) => <a href={item.link} key={i} target='_blank' rel="noreferrer"><button id={item.id} className='link'>{item.title}</button></a>)
+          linkData?.map((item, i) => <a href={item.link} id={item.id} className='link-button' key={i} target='_blank' rel="noreferrer">{item.title}</a>)
         }
       </div>
 
