@@ -17,7 +17,7 @@ const linkData = [
     {
         id: 'book__python',
         title: 'Python Books',
-        link: 'https://books.zuri.team/python-for-beginners?ref_id=Anointed1'
+        link: 'https://books.zuri.team/python-for-beginners?ref_id=AnointedOsara'
     },
     {
         id: 'pitch',
