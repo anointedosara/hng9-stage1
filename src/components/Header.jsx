@@ -27,7 +27,7 @@ export default function Header() {
 
       <div className="profile">
         <div className="profile-img-container">
-          <img id="profile__img" src="../images/profile__img.svg" alt="" />
+          <img id="profile__img" src="../images/profile__img.jpg" alt="" />
           <div className="profile-hover">
             <img className="camera" src="../images/camera.svg" alt="" />
           </div>
