@@ -17,7 +17,17 @@
 }
 
 @media screen and (max-width: 768px) {
+    .footer div {
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 0 0 0;
+    }
     .footer {
-        display: none;
+        height: max-content;
+        padding: 20px 0;
+    }
+    .footer p {
+        font-size: 15px;
+        font-weight: 500;
     }
 }
