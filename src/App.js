@@ -1,13 +1,14 @@
+import { Route } from 'react-router-dom';
 import './App.css';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Header from './components/Header';
-import Link from './components/Link';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-     <Header />
-     <Link />
+     <Route path='/' exact component={Home} />
+     <Route path='/contact' component={Contact} />
      <Footer />
     </div>
   );

@@ -28,7 +28,7 @@ const linkData = [
         id: 'book__design',
         title: 'Design Books',
         link: 'https://books.zuri.team/design-rules'
-    },
+    }
 ]
 
 export default linkData

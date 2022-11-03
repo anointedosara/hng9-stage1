@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export default function Header() {
+function Header() {
   return (
     <div>
-      <button className="header-desktop-share">
+        <button className="header-desktop-share">
         <img
           style={{width: "15px", height: "14px"}}
           src="../images/share-icon.svg"
@@ -36,5 +36,7 @@ export default function Header() {
         <p id="slack">AnointedOsara</p>
       </div>
     </div>
-  );
+  )
 }
+
+export default Header
