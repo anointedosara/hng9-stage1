@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div>
-        <button className="header-desktop-share">
+      <button className="header-desktop-share">
         <img
           style={{width: "15px", height: "14px"}}
           src="../images/share-icon.svg"
@@ -13,7 +13,6 @@ function Header() {
       <button className="header-desktop-share header-mobile-share">
         <img
           style={{width: "13px", height: "5px"}}
-          
           src="../images/dot-icon.svg"
           alt=""
         />

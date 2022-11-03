@@ -12,10 +12,10 @@ function Links() {
         <Link to="/contact" id='contact' className='link-button'>Contact Me</Link>
       </div>
 
-        <div className='socials'>
-            <img src="../images/slack.svg" alt="" />
-            <a href="https://github.com/anointedosara"><img src="../images/github.svg" alt="" /></a>
-        </div>
+      <div className='socials'>
+        <img src="../images/slack.svg" alt="" />
+        <a href="https://github.com/anointedosara"><img src="../images/github.svg" alt="" /></a>
+      </div>
     </div>
   )
 }
