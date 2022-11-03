@@ -1,56 +1,56 @@
 .contact {
-    padding: 64px 0px 120px;
+  padding: 64px 0px 120px;
 }
 
 .contact h1 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: -0.02em;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
 }
 
 .contact p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .contact-form {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #344054;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
 }
 
 .contact-names {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contact-names label {
-    width: 49%;
-    margin-top: 25px;
+  width: 49%;
+  margin-top: 25px;
 }
 
 .contact-form input {
-    width: 100%;
+  width: 100%;
 }
 
 input, textarea {
-    background: #FFFFFF;
-    border: 1px solid #D0D5DD;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-    width: 100%;
-    padding: 10px 14px;
-    margin-top: 8px;
-    margin-bottom: 25px;
-    font-weight: 400;
-    font-size: 20px;
-    font-family: 'Inter';
-    font-style: normal;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px 14px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Inter';
+  font-style: normal;
 }
 
 input:focus, textarea:focus {
@@ -59,121 +59,115 @@ input:focus, textarea:focus {
 }
 
 input::placeholder, textarea::placeholder {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #667085;
-    font-family: 'Inter';
-    font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  font-family: 'Inter';
+  font-style: normal;
 }
 
 textarea {
-    resize: none;
-    height: 132px;
+  resize: none;
+  height: 132px;
 }
 
 .container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 400;
-    color: #475467;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 20px;
-    width: 20px;
-    background: #FFFFFF;
-    border: 1px solid #D0D5DD;
-    border-radius: 6px;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .container input:checked ~ .checkmark {
-    background-color: white;
-    border: 1px solid #1570EF;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .container .checkmark:after {
-    left: 6px;
-    top: 1px;
-    width: 3px;
-    height: 9px;
-    border: solid #1570EF;
-    border-width: 0 3px 3px 0;
-    transform: rotate(45deg);
-  }
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  color: #475467;
+}
 
-  .contact-form button {
-    padding: 12px 20px;
-    margin-top: 5px;
-    width: 720px;
-    height: 48px;
-    background: #1570EF;
-    border: 1px solid #1570EF;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-    width: 100%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    transition: 0.3s all ease;
-  }
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
 
-  .contact-form button:hover {
-    background: #175CD3;
-  }
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
 
-  @media screen and (max-width: 768px) {
-    .contact {
-        padding: 0px 0px 60px;
-    }
-    .contact p {
-        font-size: 18px;
-    }
-    .contact-names label {
-        width: 100%;
-    }
-    .contact-names {
-        flex-direction: column;
-    }
-    .lname {
-        margin-top: 0 !important;
-    }
-    input, textarea {
-        margin-top: 0px;
-    }
+.container input:checked ~ .checkmark {
+  background-color: white;
+  border: 1px solid #1570EF;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+  
+.container .checkmark:after {
+  left: 6px;
+  top: 1px;
+  width: 3px;
+  height: 9px;
+  border: solid #1570EF;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  margin-top: 5px;
+  width: 720px;
+  height: 48px;
+  background: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  transition: 0.3s all ease;
+}
+
+.contact-form button:hover {
+  background: #175CD3;
+}
+
+@media screen and (max-width: 768px) {
+.contact {
+  padding: 0px 0px 60px;
+}
+.contact p {
+  font-size: 18px;
+}
+.contact-names label {
+  width: 100%;
+}
+.contact-names {
+  flex-direction: column;
+}
+.lname {
+  margin-top: 0 !important;
+}
+input, textarea {
+  margin-top: 0px;
+}
 }
