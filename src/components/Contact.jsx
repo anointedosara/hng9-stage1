@@ -15,13 +15,13 @@ function Contact() {
       <form className='contact-form'>
         <div className='contact-names'>
           <label htmlFor="fname">First name<br />
-            <input type="text" id="fname" name="fname" value={data?.fName} onChange={(e) => setData({
+            <input type="text" id="first_name" name="fname" value={data?.fName} onChange={(e) => setData({
                         ...data,
                         fName: e.target.value
                     })} placeholder='Enter your first name' required />
           </label>
           <label htmlFor="lname" className='lname'>Last name<br />
-            <input type="text" id="lname" name="lname" value={data?.lName} onChange={(e) => setData({
+            <input type="text" id="last_name" name="lname" value={data?.lName} onChange={(e) => setData({
                         ...data,
                         lName: e.target.value
                     })} placeholder='Enter your last name' required />

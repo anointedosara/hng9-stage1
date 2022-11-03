@@ -9,7 +9,7 @@ function Links() {
         {
           linkData?.map((item, i) => <a href={item.link} id={item.id} className='link-button' key={i} target='_blank' rel="noreferrer">{item.title}</a>)
         }
-        <Link to='/contact' id='contact' className='link-button'>Contact Me</Link>
+        <Link to="/contact" id='contact' className='link-button'>Contact Me</Link>
       </div>
 
         <div className='socials'>
