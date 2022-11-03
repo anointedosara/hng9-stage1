@@ -8,6 +8,11 @@ function Contact() {
     message: '',
     agree: false
 })
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+}
+
 useEffect(() => {
   window.scroll(0, 0)
 }, [])
@@ -15,7 +20,7 @@ useEffect(() => {
     <div className='contact'>
       <h1>Contact Me</h1>
       <p>Hi there, contact me to ask me about anything you have in mind.</p>
-      <form className='contact-form'>
+      <form className='contact-form' onSubmit={handleSubmit}>
         <div className='contact-names'>
           <label htmlFor="fname">First name<br />
             <input type="text" id="first_name" name="fname" value={data?.fName} onChange={(e) => setData({
