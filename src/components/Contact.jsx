@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 function Contact() {
   const [data, setData] = useState({
@@ -8,6 +8,9 @@ function Contact() {
     message: '',
     agree: false
 })
+useEffect(() => {
+  window.scroll(0, 0)
+}, [])
   return (
     <div className='contact'>
       <h1>Contact Me</h1>
