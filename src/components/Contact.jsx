@@ -25,6 +25,8 @@ const handleSubmit = (event) => {
   }
 };
 
+const name = "Anointed Osara"
+
 useEffect(() => {
   window.scroll(0, 0)
 }, [])
@@ -64,7 +66,7 @@ useEffect(() => {
           <input type="checkbox" id="checkbox" checked={data?.agree} onChange={(e) => setData({
                         ...data,
                         agree: !data?.agree
-                    })} required />You agree to providing your data to Anointed Osara who may contact you.
+                    })} required />You agree to providing your data to {name} who may contact you.
           <span className="checkmark"></span>
         </label><br />
         <button id='btn__submit'>Send message</button>
