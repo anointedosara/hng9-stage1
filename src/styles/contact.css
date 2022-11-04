@@ -6,8 +6,8 @@
   position: absolute;
   top: -30px;
   opacity: 0;
-  width: 100%;
   transition: 0.3s all ease;
+  width: 100%;
 }
 
 .toast div {
@@ -17,6 +17,14 @@
   padding: 30px 30px 40px;
   border-radius: 3px;
   position: relative;
+  background: white;
+}
+
+.contact-top {
+  position: fixed;
+  top: 0;
+  max-width: 1152px;
+  width: calc(100% - 40px);
 }
 
 .toast span {

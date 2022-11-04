@@ -17,19 +17,24 @@ const handleSubmit = (event) => {
 
   if (data.fName !== '' || data.lName !== '' || data.email !== '' || data.message !== '' || !data.agree) {
     setFullname(`${data.fName} ${data.lName}`)
+    
     setWidth({
       width: '100%'
     })
+
     setTop({
       top: '5px',
       opacity: 1
     })
+
     setTimeout(() => {
       setTop({})
     }, 5000);
+
     setTimeout(() => {
       setWidth({})
     }, 5000);
+
       setData({
         fName: '',
         lName: '',
@@ -49,11 +54,13 @@ useEffect(() => {
   return (
     <div className='contact'>
 
+      <div className='contact-top'>
       <div className='toast' style={top}>
         <div>
           Thanks {fullname} for reaching out. We will get back to you as soon as possible.
           <span style={width}></span>
         </div>
+      </div>
       </div>
 
       <h1>Contact Me</h1>
