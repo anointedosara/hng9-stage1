@@ -9,9 +9,21 @@ function Contact() {
     agree: false
 })
 
-const handleSubmit = (e) => {
-  e.preventDefault();
-}
+const handleSubmit = (event) => {
+  event.preventDefault();
+
+  if (data.fName !== '' || data.lName !== '' || data.fName !== '' || data.fName !== '' || !data.agree) {
+    alert(`Thanks ${data.fName} ${data.lName} for reaching out. We will get back to you as soon as possible.`);
+    setData({
+      fName: '',
+      lName: '',
+      email: '',
+      message: '',
+      agree: false
+    })
+    return;
+  }
+};
 
 useEffect(() => {
   window.scroll(0, 0)
@@ -52,7 +64,7 @@ useEffect(() => {
           <input type="checkbox" id="checkbox" checked={data?.agree} onChange={(e) => setData({
                         ...data,
                         agree: !data?.agree
-                    })} required />You agree to providing your data to OsaraAnointed who may contact you.
+                    })} required />You agree to providing your data to Anointed Osara who may contact you.
           <span className="checkmark"></span>
         </label><br />
         <button id='btn__submit'>Send message</button>
